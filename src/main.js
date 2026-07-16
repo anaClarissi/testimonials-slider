@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './scss/sass.scss';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import '/src/css/style.css';
+import './css/style.css';

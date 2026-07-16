@@ -7,26 +7,92 @@
   <meta name="keywords" content="html, css, bootstrap, javascript">
   <meta name="author" content="Ana Clarissi">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
 
 </head>
 <body>
 
-  “ I’ve been interested in coding for a while but never taken the jump, until now. 
-  I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-  excited about the future. ”
+  <main id="main">
 
-  Tanya Sinclair
-  UX Engineer
+    <div id="carousel" class="carousel slide carousel-fade">
 
-  “ If you want to lay the best foundation possible I’d recommend taking this course. 
-  The depth the instructors go into is incredible. I now feel so confident about 
-  starting up as a professional developer. ”
+      <div class="carousel-inner">
 
-  John Tarkpor
-  Junior Front-end Developer
+        <div class="carousel-item active">
+
+          <img src="/src/assets/images/image-tanya.jpg" class="carousel-img" alt="Tanya Image">
+
+          <div class="item-content">
+
+            <p class="testimonial--comment">
+              “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”
+            </p>
+
+            <div class="testimonial-info">
+
+              <p class="testimonial--name">Tanya Sinclair</p>
+
+              <p class="testimonial--ocupation">UX Engineer</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+
+          <img src="/src/assets/images/image-john.jpg" class="carousel-img" alt="John Image">
+
+          <div class="item-content">
+
+            <p class="testimonial--comment">
+              “ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”
+            </p>
+
+            <div class="testimonial-info">
+
+              <p class="testimonial--name">John Tarkpor</p>
+
+              <p class="testimonial--ocupation">Junior Front-end Developer</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="carousel-actions">
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="visually-hidden">Previous</span>
+
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+          <span class="visually-hidden">Next</span>
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </main>
 
   <script type="module" src="/src/main.js"></script>
   
