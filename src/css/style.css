@@ -183,5 +183,105 @@ body p {
 /*================================*/
 
 @media (min-width: 60em) {
+
+    /*==========================*/
+    /*           MAIN           */
+    /*==========================*/
+
+    #main {
+        background-size: 50%;
+    }
+
+    .background-img {
+        max-width: 55%;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    /*==========================*/
+    /*         CAROUSEL         */
+    /*==========================*/
+
+    .carousel-item,
+    .carousel-item.active {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .carousel-img {
+        max-width: 40%;
+        flex: 1;
+    }
+
+    .item-content {
+        font-size: 1.5rem;
+        align-self: center;
+        align-items: flex-start;
+        text-align: left;
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .testimonial-info {
+        display: flex;
+        gap: 1rem;
+        font-size: 1.125rem;
+    }
+
+    .testimonial--comment {
+        background-position: 25% top;
+    }
+
+    /*==========================*/
+    /*     CAROUSEL ACTIONS     */
+    /*==========================*/
+
+    .carousel-actions {
+        top: 100%;
+        transform: translate(calc(50% + 5vw), -50%);
+        box-shadow: 0 20px 30px 10px rgba(0, 0, 0, 0.11);
+    }
+
     
+}
+
+@media (min-width: 80em) {   
+
+    /*==========================*/
+    /*           MAIN           */
+    /*==========================*/
+
+    .background-img {
+        top: clamp(2rem, calc(-14.000rem + 20vw), 5rem);
+        right: clamp(2rem, calc(-14.000rem + 20vw), 5rem);
+    }
+
+    /*==========================*/
+    /*         CAROUSEL         */
+    /*==========================*/
+
+    .item-content {
+        transform: translateX(10%) scale(1.2);
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 90em) {
+    
+    /*==========================*/
+    /*           MAIN           */
+    /*==========================*/
+
+    #main {
+        padding: 0 10rem;
+    }
+
+    .background-img {
+        width: 45%;
+    }
+
 }
