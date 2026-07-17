@@ -25,7 +25,7 @@
 
 body {
     width: 100%;
-    min-height: 100dvh;
+    min-height: 100vh;
     font-family: var(--font-primary);
     font-size: 1rem;
     font-weight: 300;
@@ -47,9 +47,10 @@ body p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 100dvh;
+    min-height: 100vh;
     background: var(--white) url('/src/assets/images/pattern-curve.svg') no-repeat bottom left;
     background-size: 90%;
+    overflow: hidden;
 }
 
 .background-img {
@@ -130,4 +131,46 @@ body p {
     background-color: var(--white);
     flex: 1;
     padding: 1.5rem 1.25rem;
+}
+
+
+/*================================*/
+/*     ------- TABLETS -------    */
+/*================================*/
+
+@media (min-width: 33.75em) {
+
+    /*==========================*/
+    /*           MAIN           */
+    /*==========================*/
+
+    .background-img {
+        max-width: 75%;
+    }
+    
+    /*==========================*/
+    /*         CAROUSEL         */
+    /*==========================*/
+
+    .carousel-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel-item.active {
+        max-height: 100vh;
+    }
+
+    .carousel-img {
+        width: 50%;
+    }
+
+    .item-content {
+        justify-content: center;
+    }
+
+    .testimonial--comment {
+        align-items: flex-start;
+    }
+
 }
