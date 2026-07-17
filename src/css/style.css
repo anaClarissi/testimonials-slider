@@ -167,10 +167,21 @@ body p {
 
     .item-content {
         justify-content: center;
+        padding: 0 2rem;
+        font-size: clamp(1.250rem, calc(0.200rem + 3.111vw), 3.000rem);
     }
 
     .testimonial--comment {
         align-items: flex-start;
     }
 
+}
+
+
+/*================================*/
+/*     ------- DESKTOP -------    */
+/*================================*/
+
+@media (min-width: 60em) {
+    
 }
