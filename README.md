@@ -1,105 +1,76 @@
-# Frontend Mentor - Coding bootcamp testimonials slider
+<div align="center">
 
-![Design preview for the Coding bootcamp testimonials slider coding challenge](preview.jpg)
+# 💬 Coding Bootcamp Testimonials Slider
 
-## Welcome! 👋
+Um carrossel de depoimentos totalmente responsivo, construído a partir de um desafio do Frontend Mentor — com navegação por mouse, trackpad e teclado.
 
-Thanks for checking out this front-end coding challenge.
+<br>
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+[![Website](https://img.shields.io/badge/🌐_Live_Site-202046?style=for-the-badge&logo=vercel&logoColor=white)](https://testimonials-slider-mocha.vercel.app/)
+[![Frontend Mentor](https://img.shields.io/badge/Frontend_Mentor-Challenge-3F54A3?style=for-the-badge&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anaclarissi)
+[![Profile](https://img.shields.io/badge/FEM_Profile-anaClarissi-BABACF?style=for-the-badge&logo=frontendmentor&logoColor=202046)](https://www.frontendmentor.io/profile/anaClarissi)
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+</div>
 
-## The challenge
+<br>
 
-Your challenge is to build out this testimonial slider and get it looking as close to the design as possible.
+## 🛠️ Construído com
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+<div align="center">
 
-Your users should be able to:
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-- View the optimal layout for the component depending on their device's screen size
-- Navigate the slider using either their mouse/trackpad or keyboard
+</div>
 
-### Want some support on the challenge? 
+<br>
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## 📸 Preview
 
-## Where to find everything
+<div align="center">
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+### Desktop
+<img src="./design/desktop-design-slide-1.jpg" alt="Preview desktop do projeto" width="700">
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+### Mobile
+<img src="./design/mobile-design-slide-1.jpg" alt="Preview mobile do projeto" width="260">
 
-If you would like the Figma design file to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+</div>
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+<br>
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+## ✨ Qualidades do projeto
 
-## Using AI coding assistants
+- 🎯 **Fiel ao design** — cores, tipografia (Inter, pesos 300/500/700) e espaçamentos seguindo rigorosamente o style guide do desafio
+- 📱 **Totalmente responsivo** — de 320px a telas grandes, com breakpoints progressivos e uso de `clamp()` para transições suaves entre tamanhos
+- ⌨️ **Acessível por teclado** — navegação entre depoimentos com as setas do teclado, além de mouse e trackpad
+- 🎠 **Carrossel com fade suave** — transições elegantes entre os slides usando o componente Carousel do Bootstrap
+- 🧩 **CSS organizado e escalável** — Sass com estrutura modular, integrando as customizações do Bootstrap às variáveis do projeto
+- ⚡ **Build rápida com Vite** — ambiente de desenvolvimento ágil, com hot reload e bundle otimizado para produção
+- 🖼️ **Detalhes visuais cuidadosos** — formas decorativas, padrões e sombras reproduzindo fielmente o design original
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+<br>
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+## 🔗 Links
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+| | |
+|---|---|
+| 🌐 **Site publicado** | [testimonials-slider-mocha.vercel.app](https://testimonials-slider-mocha.vercel.app/) |
+| 🧩 **Desafio original** | [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL) |
+| 👤 **Meu perfil no Frontend Mentor** | [anaClarissi](https://www.frontendmentor.io/profile/anaClarissi) |
+| 💼 **LinkedIn** | [in/anaclarissi](https://www.linkedin.com/in/anaclarissi) |
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+<br>
 
-## Building your project
+---
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+<div align="center">
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Feito com 💜 por **Ana Clarissi**
 
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+</div>
